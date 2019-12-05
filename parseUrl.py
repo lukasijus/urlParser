@@ -28,7 +28,7 @@ import matplotlib.pyplot as plt
 ctx = ssl.create_default_context()
 ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
-
+print('hello')
 #url = input('Enter url: )
 url = 'https://stackoverflow.com/jobs?med=site-ui&ref=jobs-tab'
 page = 0

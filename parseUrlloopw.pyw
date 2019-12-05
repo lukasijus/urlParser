@@ -30,7 +30,7 @@ ctx.check_hostname = False
 ctx.verify_mode = ssl.CERT_NONE
 
 #url = input('Enter url: )
-url = 'https://stackoverflow.com/jobs?l=Remote&d=20&u=Km'
+url = 'https://stackoverflow.com/jobs?l=Remote=20&u=Km&sort=i&pg='
 page = 0
 count = 0
 text = ' '
@@ -59,7 +59,7 @@ print(sorted_x)
 dictlist = [ ]
 temp = [ ]
 for key, value in sorted_x:
-    if value > 30:
+    if value > 20:
         temp = [key,value]
         dictlist.append(temp)
 print(dictlist)
